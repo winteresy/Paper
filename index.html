@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function() {
+      $('.menu a').each(function() {
+        $(this).on('click', function(e) {
+          e.preventDefault();
+          var scrollTo = $(this).attr('href');
+          var whitespace = scrollTo == '#s1' ? 70 : 30;
+          $('html,body').animate({
+            scrollTop: $(scrollTo).offset().top - whitespace
+          }, 1000);
+        });
+      });
+    });
+    </script>
+  <title></title>
+  <style media="screen">
+  body {
+    width: 1280px;
+    margin: 0 auto;
+    background: white;
+    height: 7580px;
+    display: block;
+    position: relative;
+    overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      /* background: url('images/iMac.jpg'); */
+      height: 100%;
+      display: block;
+      opacity: .2;
+    }
+    html {
+      background: white;
+      position: relative;
+      height: 100%;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="menu">
+      <p class="a"><a href="#s1">производство бумаги</a></p>
+      <p class="b"><a href="#s2">бумажные отходы</a></p>
+      <p class="c"><a href="#s3">чем можно помочь</a></p>
+      <p class="d"><a href="#s4">шрифт</a></p>
+    </div>
+    <div class="title">
+      <h1>Зачем беречь</h1>
+    </div>
+    <div class="paper">
+      <h1>БУМАГУ?</h1>
+    </div>
+    <div class="background">
+      <img src="images/Rectangle 6.jpg" alt="">
+    </div>
+    <div class="yellow">
+      <img src="images/star.png" alt="">
+    </div>
+    <div class="yellow_blue">
+      <img src="images/yellow.png" alt="">
+    </div>
+    <div class="factory">
+      <img src="images/factory.png" alt="">
+    </div>
+    <section class="textbold">
+    <div>
+      <h2>Задумывались ли Вы когда-нибудь, сколько деревьев надо срубить для одной книги среднего размера?
+        А для изготовления пачки офисной бумаги формата А4?</h2>
+    </div>
+    <div class="one">
+      <h2 id="s1">Производство бумаги одно из самых загрязняющих окружающую среду</h2>
+    </div>
+    <div class="two">
+      <h2 id="s2">Бумажные отходы занимают значительную часть свалок. Перерабатывается лишь половина всей производимой в мире бумаги</h2>
+    </div>
+    <div class="three">
+      <h2 id="s3">Что вы можете сделать?</h2>
+    </div>
+    <div class="four">
+      <h2 id="s4">Шрифт</h2>
+    </div>
+    </section>
+    <div class="blue">
+      <img src="images/picture_1.png" alt="">
+    </div>
+    <div class="bluesquare">
+    </div>
+    <div class="greensquare1">
+    </div>
+    <div class="greensquare2">
+    </div>
+    <div class="yellowcircle1">
+    </div>
+    <div class="yellowcircle2">
+    </div>
+    <div class="yellowcircle3">
+    </div>
+    <div class="blackcircle">
+    </div>
+    <div class="yellow1">
+      <img src="images/yellow1.png" alt="">
+    </div>
+    <div class="trash">
+      <img src="images/trash.png" alt="">
+    </div>
+    <div class="pies">
+      <img src="images/pies.png" alt="">
+    </div>
+    <section class="textreg">
+    <div class="q">
+      <p>Окись углерода<br>CO</p>
+    </div>
+    <div class="w">
+      <p>Бензол<br>C6H6</p>
+    </div>
+    <div class="e">
+      <p>Диоксины<br>C4H4O2</p>
+    </div>
+    <div class="r">
+      <p>Нитраты<br>NO3-</p>
+    </div>
+    <div class="t">
+      <p>Метанол<br>CH3OH</p>
+    </div>
+    <div class="y">
+      <p>Аммиак<br>NH3</p>
+    </div>
+    <div class="u">
+      <p>Ртуть<br>Hg</p>
+    </div>
+  </section>
+  <div class="printer">
+    <img src="images/printer.png" alt="">
+  </div>
+  <div class="bag">
+    <img src="images/bag.png" alt="">
+  </div>
+  <section class="points">
+    <div class="num1">
+      <h1>1.</h1>
+      <p>Для начала, просто стараться использовать меньше бумаги. Писать на листе с двух сторон, вести конспекты и записи на электронных носителях.</p>
+    </div>
+    <div class="num2">
+      <h1>2.</h1>
+      <p>Использованную бумагу можно сдать в макулатуру. Старые книги сдать в библиотеку или отнести на буккроссинг, если они в нормальном состоянии.</p>
+    </div>
+    <div class="num3">
+      <h1>3.</h1>
+      <p>Печатать на бумаге с двух сторон. Также существуют шрифты, которые экономят чернила<br>и бумагу за счёт того, что начертание букв тоньше обычных шрифтов.</p>
+    </div>
+    <div class="num4">
+      <h1>4.</h1>
+      <p>Стараться не использовать бумажные<br>пакеты, вместо них можно воспользоваться тряпочными авоськами.</p>
+    </div>
+  </section>
+  <div class="yellow2">
+    <img src="images/yellow2.png" alt="">
+  </div>
+  <div class="textreg1">
+    <p>Этот сайт сделан с использованием одного шрифта  — Atlas Typewriter. Atlas удовлетворил требованиям экономичности  —  благодаря узким пропорциям нового шрифта компания сократила затраты на бумагу. Atlas был сделан на заказ для Munich Re, одного из мировых лидеров на рынке перестрахования.</p>
+  </div>
+  <div class="atlas">
+    <img src="images/atlas.png" alt="">
+  </div>
+  <div class="bluesquare2">
+  </div>
+  <div class="bottom">
+    <h2>Задизайнено: Гуровой Алисой</h2>
+  </div>
+  <div class="bottom1">
+    <h2>HSE ART AND DESIGN SCHOOL</h2>
+  </div>
+  <div class="yellow3">
+    <img src="images/yellow3.png" alt="">
+  </div>
+  </body>
+</html>
