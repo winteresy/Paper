@@ -1,0 +1,20 @@
+@import 'reset.css';
+@import 'layout.css';
+@font-face {
+    font-family: "AtlasTypewriterLCWebReg";
+    src: url("../fonts/AtlasTypewriterLCWebReg.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    }
+    p {
+    font-family: "AtlasTypewriterLCWebReg";
+}
+@font-face {
+    font-family: "AtlasTypewriterLCWebBd";
+    src: url("../fonts/AtlasTypewriterLCWebBd.woff") format("woff");
+    font-style: normal;
+    font-weight: bold;
+    }
+    h1, h2, h3 {
+    font-family: "AtlasTypewriterLCWebBd";
+}
