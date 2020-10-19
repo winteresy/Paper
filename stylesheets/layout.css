@@ -1,0 +1,398 @@
+  .background::before {
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+  }
+  .title {
+    position: absolute;
+    width: 818px;
+    height: 138px;
+    left: 75px;
+    top: 206px;
+    font-size: 72px;
+    line-height: 180px;
+    color: #FFFFFF;
+  }
+  .paper {
+    position: absolute;
+    width: 818px;
+    height: 188px;
+    left: 75px;
+    top: 344px;
+    font-size: 170px;
+    line-height: 180px;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke: 1.5px #FFFFFF;
+    color: inherit;
+  }
+  .menu {
+    position: absolute;
+    height: 19px;
+    top: 17px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .a {
+    position: absolute;
+    left: 75px;
+    width: 310px;
+  }
+  .b {
+    position: absolute;
+    left: 385px;
+    width: 254px;
+  }
+  .c {
+    position: absolute;
+    left: 639px;
+    width: 254px;
+  }
+  .d {
+    position: absolute;
+    left: 893px;
+    width: 254px;
+  }
+  .yellow {
+    display: block;
+    position: absolute;
+    left: 912px;
+    top: 178px;
+    animation-name: yellow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes yellow {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .yellow_blue {
+    position: absolute;
+    width: 69px;
+    height: 96px;
+    left: 997px;
+    top: 257px;
+  }
+  .factory {
+    position: absolute;
+    width: 975px;
+    height: 1218px;
+    left: 482px;
+    top: 2544px;
+    opacity: 0.7;
+  }
+  .textbold {
+    position: absolute;
+    width: 960px;
+    height: 203px;
+    left: 59px;
+    top: 840px;
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .one {
+    margin-top: 1470px;
+  }
+  .two {
+    margin-top: 928px;
+  }
+  .three {
+    margin-top: 575px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .four {
+    margin-top: 1683px;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .blue {
+    position: absolute;
+    width: 1284px;
+    height: 1395px;
+    left: 58px;
+    top: 1100px;
+  }
+  .bluesquare {
+    position: absolute;
+    width: 463px;
+    height: 448px;
+    left: 140px;
+    top: 2754px;
+    background: #1B2EDC;
+    border-radius: 70px;
+  }
+  .bluesquare:hover {
+    transform: rotate(45deg) scale(0.9);
+    opacity: 0.7;
+  }
+  .greensquare1 {
+    position: absolute;
+    width: 188px;
+    height: 182px;
+    left: 623px;
+    top: 2759px;
+    background: #669966;
+    border-radius: 70px;
+  }
+  .greensquare2 {
+    position: absolute;
+    width: 151px;
+    height: 146px;
+    left: 855px;
+    top: 2759px;
+    background: #669966;
+    border-radius: 45px;
+  }
+  .yellowcircle1 {
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    left: 416px;
+    top: 3216px;
+    background: #FFE55A;
+    border-radius: 100px;
+  }
+  .yellowcircle2 {
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 638px;
+    top: 2980px;
+    background: #FFE55A;
+    border-radius: 100px;
+  }
+  .yellowcircle3 {
+    position: absolute;
+    width: 177px;
+    height: 177px;
+    left: 623px;
+    top: 3172px;
+    background: #FFE55A;
+    border-radius: 100px;
+  }
+  .blackcircle {
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: 803px;
+    top: 2921px;
+    background: #000000;
+    border-radius: 100%;
+  }
+  .yellow1 {
+    position: absolute;
+    width: 262px;
+    height: 262px;
+    left: 795px;
+    top: 3130px;
+  }
+  .textreg {
+    font-size: 22px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4px;
+  }
+  .q {
+    position: absolute;
+    width: 324px;
+    height: 56px;
+    left: 210px;
+    top: 2950px;
+    color: #FFFFFF;
+  }
+  .w {
+    position: absolute;
+    left: 49.38%;
+    right: 37.34%;
+    top: 37.15%;
+    bottom: 62.31%;
+    color: #FFFFFF;
+  }
+  .e {
+    position: absolute;
+    left: 65.93%;
+    right: 20.86%;
+    top: 37%;
+    bottom: 62.47%;
+    color: #FFFFFF;
+  }
+  .r {
+    position: absolute;
+    left: 48.98%;
+    right: 37.73%;
+    top: 39.9%;
+    bottom: 59.71%;
+  }
+  .t {
+    position: absolute;
+    left: 31.02%;
+    right: 55.7%;
+    top: 42.9%;
+    bottom: 56.72%;
+  }
+  .y {
+    position: absolute;
+    left: 49.53%;
+    right: 38.59%;
+    top: 42.6%;
+    bottom: 57.02%;
+  }
+  .u {
+    position: absolute;
+    left: 66.8%;
+    right: 21.02%;
+    top: 39.9%;
+    bottom: 59.65%;
+    color: #FFFFFF;
+  }
+  .trash {
+    position: absolute;
+    width: 619px;
+    height: 773px;
+    left: 811px;
+    top: 3533px;
+    opacity: 0.3;
+  }
+  .pies {
+    position: absolute;
+    width: 1100px;
+    height: 483px;
+    left: 59px;
+    top: 3733px;
+  }
+  .printer {
+    position: absolute;
+    width: 553px;
+    height: 544px;
+    left: 834px;
+    top: 4879px;
+  }
+  .bag {
+    position: absolute;
+    width: 269px;
+    height: 380px;
+    left: 954px;
+    top: 5489px;
+  }
+  .points h1 {
+    font-size: 288px;
+    line-height: 361px;
+    color: #1B2EDC;
+    width: 406px;
+    height: 306px;
+    left: 66px;
+  }
+  .points p {
+    font-size: 24px;
+    line-height: 30px;
+    width: 708px;
+    height: 151px;
+    left: 421px;
+  }
+  .num1 h1 {
+    position: absolute;
+    top: 4324px;
+  }
+  .num1 p {
+    position: absolute;
+    top: 4397px;
+  }
+  .num2 h1 {
+    position: absolute;
+    top: 4729px;
+  }
+  .num2 p {
+    position: absolute;
+    top: 4807px;
+  }
+  .num3 h1 {
+    position: absolute;
+    top: 5134px;
+  }
+  .num3 p {
+    position: absolute;
+    top: 5192px;
+  }
+  .num4 h1 {
+    position: absolute;
+    top: 5519px;
+  }
+  .num4 p {
+    position: absolute;
+    top: 5577px;
+  }
+  .yellow2 {
+    position: absolute;
+    left: 72.03%;
+    right: -3.05%;
+    top: 58.45%;
+    bottom: 36.35%;
+  }
+  .textreg1 {
+    position: absolute;
+    width: 979px;
+    height: 151px;
+    left: 60px;
+    top: 6082px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .atlas {
+    position: absolute;
+    width: 1168px;
+    height: 1029px;
+    left: 55px;
+    top: 6324px;
+  }
+  .bluesquare2 {
+    position: absolute;
+    width: 1280px;
+    height: 165px;
+    left: 0px;
+    top: 7474px;
+    background: #1B2EDC;
+  }
+  .bottom {
+    position: absolute;
+    width: 936px;
+    height: 31px;
+    left: 60px;
+    top: 7541px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .bottom1 {
+    position: absolute;
+    width: 936px;
+    height: 31px;
+    left: 560px;
+    top: 7541px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .yellow3 {
+    position: absolute;
+    width: 333px;
+    height: 326px;
+    left: 900px;
+    top: 7290px;
+  }
