@@ -124,7 +124,7 @@
   }
   .bluesquare {
     position: absolute;
-    width: 463px;
+    width: 448px;
     height: 448px;
     left: 140px;
     top: 2754px;
@@ -144,14 +144,23 @@
     background: #669966;
     border-radius: 70px;
   }
+  .greensquare1:hover {
+    border-radius: 100px;
+    opacity: 0.7;
+  }
   .greensquare2 {
     position: absolute;
     width: 151px;
-    height: 146px;
+    height: 151px;
     left: 855px;
     top: 2759px;
     background: #669966;
     border-radius: 45px;
+  }
+  .greensquare2:hover {
+    border-radius: 20px;
+    opacity: 0.7;
+    background: #1B2EDC;
   }
   .yellowcircle1 {
     position: absolute;
@@ -162,6 +171,10 @@
     background: #FFE55A;
     border-radius: 100px;
   }
+  .yellowcircle1:hover {
+    opacity: 0.7;
+    background: #669966;
+  }
   .yellowcircle2 {
     position: absolute;
     width: 144px;
@@ -170,6 +183,10 @@
     top: 2980px;
     background: #FFE55A;
     border-radius: 100px;
+  }
+  .yellowcircle2:hover {
+    opacity: 0.7;
+    background: #1B2EDC;
   }
   .yellowcircle3 {
     position: absolute;
@@ -180,6 +197,9 @@
     background: #FFE55A;
     border-radius: 100px;
   }
+  .yellowcircle3:hover {
+    opacity: 0.7;
+  }
   .blackcircle {
     position: absolute;
     width: 262px;
@@ -188,6 +208,9 @@
     top: 2921px;
     background: #000000;
     border-radius: 100%;
+  }
+  .blackcircle:hover {
+    opacity: 0.7;
   }
   .yellow1 {
     position: absolute;
